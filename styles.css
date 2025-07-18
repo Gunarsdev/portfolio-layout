@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+body {
+           /* Light gray background */
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   
+}
+
+header {
+   background: #333;
+   color: white;
+   padding: 1px 0;
+   text-align: left;
+   }
+
+nav ul{
+      background-color: #4cae4c;
+      overflow:hidden;
+      position: sticky;
+      width: 100%;
+      transition: top 0.3s;
+      text-align: right;
+      list-style: none;
+      padding: 0;
+   }
+   nav ul li {
+   display: inline;
+   margin: 0 15px;
+   }
+   nav ul li  a {
+   color: white;
+   text-decoration: none;
+   }
+#home {
+   background-color: #ffebc6; /* Light brown */
+   padding:100px;
+   text-align:center;
+}
+
+#about{
+   background-color: #add8e6; /* Light blue */
+   padding:100px;
+   max-width: 500%;
+   margin: auto;
+   border-radius: 5px;
+}
+#works{
+   background-color: #edddb0; /* warm beige */
+   padding:100px;
+   max-width: 500%;
+   margin: auto;
+   border-radius: 5px;
+}
+#contact{
+   background-color:#acdcec;
+   padding: 100px;/*-- 3 textarea and button box same --*/
+   max-width: 500%;
+   margin: auto;
+   padding: 100px;
+   border-radius: 5px;
+   
+}
+   h2 {
+      text-align:center;
+   }
+   .form-group {
+   margin-bottom: 15px;
+   
+   }
+   label {
+   display: block;
+   margin-bottom: 5px;
+   }
+   input[type="text"],
+   input[type="email"],
+   textarea { 
+      font-family: "Libre Baskerville", serif;
+      font-weight: 400;
+      letter-spacing: .22rem;
+   width: 96%;
+   margin-bottom: 5px;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   }
+    
+button {
+   font-family: "Great Vibes", serif;
+   font-weight: 400;
+   font-style: normal;
+   width: 100%;
+   padding: 10px;
+   background-color: #5cb85c;
+   color: rgb(255, 255, 255);
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   }
+button:hover {
+   background-color: #399339;
+   transition-duration:5px;
+   text-shadow:50%;
+   }
+
+   /*-- End contacts container --*/
+   
+footer {
+   background: #333;
+   color: white;
+   text-align: center;
+   padding: 15px 0;
+   position: relative;
+   bottom: 0;
+   width: 100%;
+   }
+footer .social-links a {
+   color: white;
+   text-decoration: navajowhite;
+   color:#5556;
+   margin: 0 10px;
+   }
+footer .social-links a:hover {
+   text-decoration: underline;
+   }
+
+    /*-- End footer container --*/
+   
